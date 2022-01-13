@@ -8,7 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className="bg-text-100">
+      <div className="bg-text-100 md:px-20">
         <div className="container mx-auto lg:px-10">
           <h2 className="text-3xl font-semibold pt-12">
             Explore other options for you here
