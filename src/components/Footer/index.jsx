@@ -12,7 +12,7 @@ function Footer() {
           <h2 className="text-3xl font-semibold pt-12">
             Explore other options for you here
           </h2>
-          <div className="option">
+          <div className="">
             <h3 className="text-2xl font-normal py-12">Popular cuisines near me</h3>
             <div className="text-text-50 font-normal leading-8">
               <a href="" className="mr-3">
@@ -194,7 +194,7 @@ function Footer() {
       <div className="bg-text-150">
         <div className="container mx-auto px-10">
           <div className="flex items-center justify-between py-8 flex-wrap">
-            <div className="row1-col1">
+            <div className="">
               <img
                 src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*"
                 alt=""
@@ -202,8 +202,8 @@ function Footer() {
               />
             </div>
 
-            <div className="row1-col2 w-3/12 flex items-center justify-evenly">
-              <div className="language flex items-center justify-evenly border-2 border-text-200 rounded-md p-1 mr-4">
+            <div className="flex items-center justify-evenly">
+              <div className="flex items-center justify-evenly border-2 border-text-200 rounded-md p-1 mr-4">
                 <span className="pr-1">
                   <img
                     src="https://zomato-master-p.s3.ap-south-1.amazonaws.com/india.png"
@@ -213,7 +213,7 @@ function Footer() {
                 <span className="pr-1"> INDIA </span>
                 <FiChevronDown />
               </div>
-              <div className="language flex items-center justify-evenly border-2 border-text-200 rounded-md p-1">
+              <div className="flex items-center justify-evenly border-2 border-text-200 rounded-md p-1">
                 <HiOutlineGlobeAlt size={20} />
                 <span className="px-1"> English </span>
                 <FiChevronDown />
@@ -221,8 +221,8 @@ function Footer() {
             </div>
           </div>
 
-          <div className="footer-row2 flex flex-wrap justify-between pb-4">
-            <div className="spacing row2-col1">
+          <div className="flex flex-wrap justify-between pb-4">
+            <div className="">
               <h4 className="text-black font-normal">COMPANY</h4>
               <div className="text-text-250 py-3 leading-8">
                 <p>Who We Are</p>
@@ -233,7 +233,7 @@ function Footer() {
                 <p>Investor Relations</p>
               </div>
             </div>
-            <div className="spacing row2-col2">
+            <div className="">
               <h4 className="text-black font-normal">FOR FOODIES</h4>
               <div className="text-text-250 py-3 leading-8">
                 <p>Code of Conduct</p>
@@ -242,7 +242,7 @@ function Footer() {
                 <p>Mobile Apps</p>
               </div>
             </div>
-            <div className="spacing row2-col3">
+            <div className="">
               <h4 className="text-black font-normal">FOR RESTAURANTS</h4>
               <div className="text-text-250 py-3 leading-8">
                 <p>Add Reastaurant</p>
@@ -251,7 +251,7 @@ function Footer() {
                 <p>Products for Business</p>
               </div>
             </div>
-            <div className="spacing row2-col4">
+            <div className="">
               <h4 className="text-black font-normal">FOR YOU</h4>
               <div className="text-text-250 py-3 leading-8">
                 <p>Privacy</p>
@@ -260,14 +260,14 @@ function Footer() {
                 <p>Sitemap</p>
               </div>
             </div>
-            <div className="spacing row2-col5">
+            <div className="">
               <h4 className="text-black font-normal pb-4">SOCIAL LINKS</h4>
               <div className="icons flex justify-evenly w-6/12 items-center pb-2">
                 <FaFacebook size={22} />
                 <AiFillTwitterCircle size={22} />
                 <AiFillInstagram size={22} />
               </div>
-              <div className="apple py-2">
+              <div className="py-2">
                 <img
                   src="https://zomato-master-p.s3.ap-south-1.amazonaws.com/appStore.png"
                   alt=""
@@ -275,7 +275,7 @@ function Footer() {
                   width="130px"
                 />
               </div>
-              <div className="google py-2">
+              <div className="py-2">
                 <img
                   src="https://zomato-master-p.s3.ap-south-1.amazonaws.com/playStore.png"
                   alt=""
@@ -288,7 +288,7 @@ function Footer() {
 
           <hr className="container mx-auto pb-6" />
 
-          <div className="footer-row3 text-text-250 text-sm pb-10">
+          <div className="text-text-250 text-sm pb-10">
             <p>
               By continuing past this page, you agree to our Terms of Service, Cookie
               Policy, Privacy Policy and Content Policies. All trademarks are properties
