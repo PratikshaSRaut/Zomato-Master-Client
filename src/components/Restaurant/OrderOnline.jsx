@@ -24,9 +24,8 @@ function OrderOnline() {
 
   const dispatch = useDispatch();
 
-  const reduxState = useSelector((globalState) =>
-    //  globalState.restaurant.selectedRestaurant.restaurant,
-    console.log(globalState.restaurant.selectedRestaurant.restaurant)
+  const reduxState = useSelector(
+    (globalState) => globalState.restaurant.selectedRestaurant.restaurant
   );
 
   useEffect(() => {

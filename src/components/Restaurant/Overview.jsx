@@ -65,6 +65,9 @@ function Overview() {
     console.log(newRating);
   };
 
+  //   "1234324234.343,23414324214.243"
+  //   mapAddress?.split(",")   // ["1234324234.343", "23414324214.243"]
+  //   map((item) => parseFloat(item)); // [1234324234.343, 23414324214.243]
   const getLatLong = (mapAddress) => {
     return mapAddress?.split(",").map((item) => parseFloat(item));
   };
