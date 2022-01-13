@@ -12,7 +12,7 @@ function FloatMenuBtn(props) {
 
   return (
     <>
-      <div className="fixed z-30 w-8/12 flex flex-col gap-3 items-end bottom-2 right-2 md:hidden">
+      <div className="fixed z-30 w-8/12 flex flex-col gap-3 items-end bottom-12 right-2 md:hidden">
         {isClicked && (
           <div className="p-3 bg-white h-48 overflow-y-scroll">
             {props.menu.map((item, index) => (
