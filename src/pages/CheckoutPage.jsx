@@ -11,6 +11,9 @@ import Razorpay from "razorpay";
 import FoodItem from "../components/Cart/FoodItem";
 import AddressList from "../components/Checkout/AddressList";
 
+//redux
+import { getRestaurant } from "../redux/reducers/restaurant/restaurant.action";
+
 function CheckoutPage() {
   const address = [
     {
@@ -25,7 +28,9 @@ function CheckoutPage() {
 
   const reduxStateCart = useSelector((globalState) => globalState.cart.cart);
   const reduxStateUser = useSelector((globalState) => globalState.user.user.user);
-
+  const reduxStateRestaurant = useSelector(
+    (globalState) => globalState.restaurant.selectedRestaurant.restaurant
+  );
   const payNow = () => {
     let options = {
       key: "rzp_test_KDbFnmz4cPh2Nq",
@@ -60,8 +65,8 @@ function CheckoutPage() {
         <div className="flex w-full flex-col gap-2 items-center">
           <h5 className="text-base tracking-wider">ORDER FROM</h5>
           <div className="flex w-full flex-col items-center text-gray-400">
-            <h4>Domino's Pizza</h4>
-            <small>GT Woorld Mall, Magadi Road, NCR Noida</small>
+            <h4>{reduxStateRestaurant.name}</h4>
+            <small>{reduxStateRestaurant.address}</small>
           </div>
           <div className="my-4 h-32 overflow-y-scroll px-4 flex flex-col gap-2 w-full md:w-3/5">
             {reduxStateCart.map((food) => (
