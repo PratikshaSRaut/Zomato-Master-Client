@@ -38,7 +38,6 @@ function CheckoutPage() {
         "https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png",
       handler: (data) => {
         alert("Payment Successful");
-        console.log(data);
       },
       prefill: {
         name: reduxStateUser.fullName,

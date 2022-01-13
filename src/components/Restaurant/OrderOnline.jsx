@@ -32,7 +32,6 @@ function OrderOnline() {
     reduxState &&
       dispatch(getFoodList(reduxState.menu)).then((data) => {
         setMenu(data.payload.menus.menus);
-        console.log(data.payload.menus.menus[1].items);
       });
   }, [reduxState]);
 

@@ -2,7 +2,6 @@ import React from "react";
 import { TiStarFullOutline } from "react-icons/ti";
 
 function RestaurantInfo(props) {
-  console.log(props.cuisine);
   return (
     <>
       <div className="my-4">

@@ -65,9 +65,6 @@ function Overview() {
     console.log(newRating);
   };
 
-  //   "1234324234.343,23414324214.243"
-  //   mapAddress?.split(",")   // ["1234324234.343", "23414324214.243"]
-  //   map((item) => parseFloat(item)); // [1234324234.343, 23414324214.243]
   const getLatLong = (mapAddress) => {
     return mapAddress?.split(",").map((item) => parseFloat(item));
   };
@@ -155,14 +152,6 @@ function Overview() {
                 </Slider>
               </div>
             </div>
-            {/* <div className="my-4 w-full md:hidden flex flex-col gap-4">
-              <MapView
-                title="McDonald's"
-                phno="+919234345634"
-                mapLocation={getLatLong("28.64435706075414, 77.11929960209767")}
-                address="Shop 52, Plot 8, 9 & 10, G-8, Ground Floor, DDA Market, J-Block, Community Centre, Rajouri Garden, New Delhi"
-              />
-            </div> */}
           </div>
         </div>
         <aside

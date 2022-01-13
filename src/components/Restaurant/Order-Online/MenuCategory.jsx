@@ -2,7 +2,6 @@ import React from "react";
 import classnames from "classnames";
 
 function MenuCategory(props) {
-  console.log(props.onClickHandler);
   return (
     <>
       <div

@@ -19,7 +19,6 @@ function Menu() {
       dispatch(getImage(reduxState?.menuImages)).then((data) => {
         const images = [];
         data.payload.images.map(({ location }) => images.push(location));
-        console.log(images);
         setMenu(images);
       });
   }, [dispatch, reduxState]);

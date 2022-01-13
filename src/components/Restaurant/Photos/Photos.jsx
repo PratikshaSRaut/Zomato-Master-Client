@@ -25,10 +25,8 @@ function Photos() {
   useEffect(() => {
     if (reduxState)
       dispatch(getImage(reduxState?.photos)).then((data) => {
-        console.log(data);
         const images = [];
         data.payload.images.map(({ location }) => images.push(location));
-        console.log(images);
         setPhotos(images);
       });
   }, [reduxState]);

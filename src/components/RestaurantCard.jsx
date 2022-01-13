@@ -16,14 +16,10 @@ function RestaurantCard(props) {
   useEffect(() => {
     props.photos &&
       dispatch(getImage(props.photos)).then((data) => {
-        console.log(data.payload);
         const images = data.payload.images;
         setImage((prev) => ({ ...prev, images }));
-        // console.log(data);
       });
   }, [dispatch, props.photos]);
-
-  console.log(props);
 
   return (
     <Link to={`/restaurant/${props._id}/overview`} className="w-full md:w-1/2 lg:w-1/3">

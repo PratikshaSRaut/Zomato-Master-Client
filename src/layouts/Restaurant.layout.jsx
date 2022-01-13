@@ -40,7 +40,6 @@ function RestaurantLayout({ children }) {
       }));
 
       dispatch(getImage(data.payload.restaurant.photos)).then((data) => {
-        // console.log(data);
         setRestaurant((prev) => ({
           ...prev,
           images: data.payload.images,

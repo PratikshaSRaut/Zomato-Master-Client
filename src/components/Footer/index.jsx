@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { HiOutlineGlobeAlt } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
@@ -181,19 +180,19 @@ function Footer() {
 
             <h3 className="text-2xl font-normal pt-12">Top Restaurant Chains</h3>
             <div className="flex flex-wrap justify-between items-center text-text-50 font-normal py-6">
-              <span className="">Domino's</span>
-              <span className="">Dunkin' Donuts</span>
-              <span className="">Faasos</span>
-              <span className="">Haldiram's</span>
-              <span className="">KFC</span>
-              <span className="">McDonald's</span>
-              <span className="">Subway</span>
+              <span className="pr-10 pt-4">Domino's</span>
+              <span className="pr-10 pt-4">Dunkin' Donuts</span>
+              <span className="pr-10 pt-4">Faasos</span>
+              <span className="pr-10 pt-4">Haldiram's</span>
+              <span className="pr-10 pt-4">KFC</span>
+              <span className="pr-10 pt-4">McDonald's</span>
+              <span className="pr-10 pt-4">Subway</span>
             </div>
           </div>
         </div>
       </div>
       <div className="bg-text-150">
-        <div className="container mx-auto lg:px-10">
+        <div className="container mx-auto px-10">
           <div className="flex items-center justify-between py-8 ">
             <div className="row1-col1">
               <img
@@ -204,7 +203,7 @@ function Footer() {
             </div>
 
             <div className="row1-col2 w-3/12 flex items-center justify-evenly">
-              <div className="language flex items-center justify-evenly border-2 border-text-200 rounded-md p-1 ">
+              <div className="language flex items-center justify-evenly border-2 border-text-200 rounded-md p-1 mr-4">
                 <span className="pr-1">
                   <img
                     src="https://zomato-master-p.s3.ap-south-1.amazonaws.com/india.png"
@@ -222,7 +221,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="footer-row2 flex justify-between pb-4">
+          <div className="footer-row2 flex flex-wrap justify-between pb-4">
             <div className="spacing row2-col1">
               <h4 className="text-black font-normal">COMPANY</h4>
               <div className="text-text-250 py-3 leading-8">

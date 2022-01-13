@@ -8,7 +8,6 @@ import { getUser } from "../../../redux/reducers/user/user.action";
 
 function ReviewCard(props) {
   const [user, setUser] = useState("Pratiksha");
-  console.log(props);
 
   const dispatch = useDispatch();
 

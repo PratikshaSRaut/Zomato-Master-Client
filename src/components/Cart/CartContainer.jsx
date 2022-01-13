@@ -26,10 +26,7 @@ function CartSM({ toggle }) {
               <IoMdArrowDropup />
             </span>
           </small>
-          <h4>
-            Rs.{reduxState.reduce((acc, curVal) => acc + curVal.totalPrice, 0)}
-            <sub>(plus tax)</sub>
-          </h4>
+          <h4>Rs.{reduxState.reduce((acc, curVal) => acc + curVal.totalPrice, 0)}</h4>
         </div>
         <button
           onClick={continueToCheckout}
@@ -62,7 +59,6 @@ function CartLG({ toggle }) {
         <div className="flex w-3/12 justify-between items-center p-1">
           <h4>
             Subtotal: Rs.{reduxState.reduce((acc, curVal) => acc + curVal.totalPrice, 0)}{" "}
-            {/* <sub>(plus tax)</sub> */}
           </h4>
         </div>
         <button

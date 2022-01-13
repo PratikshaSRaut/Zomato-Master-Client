@@ -4,7 +4,6 @@ import { useLocation, useParams, Link } from "react-router-dom";
 
 function Tab(props) {
   const { id } = useParams();
-  // console.log(id);
   return (
     <Link to={`/restaurant/${id}/${props.route}`}>
       <div

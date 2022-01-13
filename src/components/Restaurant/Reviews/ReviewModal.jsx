@@ -21,7 +21,6 @@ export default function ReviewModal({ isOpen, setIsOpen, ...props }) {
   const { id } = useParams();
 
   const handleChange = (e) => {
-    console.log(e.target.id);
     setReviewData((prev) => ({ ...prev, [e.target.id]: e.target.value }));
   };
 

@@ -24,7 +24,6 @@ function FoodItem(props) {
         return data.payload.foods;
       })
       .then((data) => {
-        console.log(data);
         reduxState.forEach((each) => {
           if (each._id === data._id) {
             setFood((prev) => ({ ...prev, isAddedToCart: true }));
