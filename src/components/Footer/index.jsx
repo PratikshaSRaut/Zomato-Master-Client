@@ -202,7 +202,7 @@ function Footer() {
               />
             </div>
 
-            <div className="flex items-center justify-evenly">
+            <div className="flex items-center justify-evenly my-6">
               <div className="flex items-center justify-evenly border-2 border-text-200 rounded-md p-1 mr-4">
                 <span className="pr-1">
                   <img
