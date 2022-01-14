@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { TiStarOutline } from "react-icons/ti";
 import { RiDirectionLine, RiShareForwardLine } from "react-icons/ri";
 import { BiBookmarkPlus } from "react-icons/bi";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 // Redux
 import { useDispatch } from "react-redux";
@@ -63,9 +63,11 @@ function RestaurantLayout({ children }) {
           address={restaurant?.address}
         />
         <div className="my-4 flex flex-wrap gap-3 mx-auto">
-          <InfoButton isActive={true}>
-            <TiStarOutline /> Add Review
-          </InfoButton>
+          <Link to={`/restaurant/${id}/reviews`}>
+            <InfoButton isActive={true}>
+              <TiStarOutline /> Add Review
+            </InfoButton>
+          </Link>
           <InfoButton>
             <RiDirectionLine /> Direction
           </InfoButton>
