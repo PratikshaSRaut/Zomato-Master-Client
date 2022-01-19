@@ -11,7 +11,7 @@ Write review
 Order-Online(Add) to cart
 In cart 🛒 increte,decrete and delete are available
 Clicking on Continue Button in cart will navigate to Checkout Page for payment
-Pay Securely is working fine and back arrow on checkout page also added funcyionality.
+Pay Securely is working fine and back arrow on checkout page also added functionality.
 
 
 # Getting Started with Create React App
