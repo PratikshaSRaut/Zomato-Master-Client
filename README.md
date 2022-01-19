@@ -6,11 +6,17 @@ Login & Signup Functionalities are working.
 
 On Delivery Page there are some clickable Restaurants which will navigate us to restaurant/id/overview route.
 
-Some more working functionalities are : Add Review Button click will navigate to restaurant/id/reviews 
+Some more working functionalities are : 
+Add Review Button click will navigate to restaurant/id/reviews 
+
 Write review
+
 Order-Online(Add) to cart
+
 In cart 🛒 increte,decrete and delete are available
+
 Clicking on Continue Button in cart will navigate to Checkout Page for payment
+
 Pay Securely is working fine and back arrow on checkout page also added functionality.
 
 
