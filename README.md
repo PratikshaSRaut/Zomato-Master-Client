@@ -1,3 +1,19 @@
+# Zomato Master Project
+
+This Project is a food ordering website which contains Delivery, Dining Out, Night Life And Nutrition Tabs on Homepage.
+
+Login & Signup Functionalities are working.
+
+On Delivery Page there are some clickable Restaurants which will navigate us to restaurant/id/overview route.
+
+Some more working functionalities are : Add Review Button click will navigate to restaurant/id/reviews 
+Write review
+Order-Online(Add) to cart
+In cart 🛒 increte,decrete and delete are available
+Clicking on Continue Button in cart will navigate to Checkout Page for payment
+Pay Securely is working fine and back arrow on checkout page also added funcyionality.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
