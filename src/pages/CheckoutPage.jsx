@@ -33,7 +33,7 @@ function CheckoutPage() {
   );
   const payNow = () => {
     let options = {
-      key: "rzp_test_KDbFnmz4cPh2Nq",
+      key: "rzp_test_wNgsJuId4rKLIm",
       amount:
         reduxStateCart.reduce((total, current) => total + current.totalPrice, 0) * 100,
       currency: "INR",
