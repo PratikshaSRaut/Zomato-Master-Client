@@ -80,7 +80,7 @@ function CartContainer() {
 
   return (
     <>
-      {reduxState.length && (
+      {reduxState.length !== 0 && (
         <>
           <>
             {isOpen && (
