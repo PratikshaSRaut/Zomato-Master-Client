@@ -28,7 +28,7 @@ function FoodItem(props) {
         <div className="flex items-center gap-2">
           <div className="flex justify-between items-end">
             <span className="p-1">
-              ${parseInt(props.price) * parseInt(props.quantity)}
+              Rs.{parseInt(props.price) * parseInt(props.quantity)}
             </span>
             <div className="px-1 bg-zomato-400 text-white rounded flex items-center gap-1">
               <button
